@@ -1026,7 +1026,7 @@ function showQuizResult() {
   waBtn.onclick = function () {
     var fullMsg = `${waMessage}\n• Recommended: *${resultTitle}*\n• Usia: ${quizAnswers.step1}\n• Tujuan: ${quizAnswers.step2}\n• Pengalaman: ${quizAnswers.step3}`;
     safeOpenUrl(
-      `https://api.whatsapp.com/send?phone=62895410450540&text=${encodeURIComponent(fullMsg)}`,
+      `https://api.whatsapp.com/send?phone=6281360088296&text=${encodeURIComponent(fullMsg)}`,
     );
   };
 }
@@ -1785,7 +1785,7 @@ function initWaForm() {
       var msg = `Halo Dojo Gojukai Banda Aceh, saya ingin mendaftar:\n• Nama: ${name}\n• Usia: ${age} thn\n• Alamat: ${alamat}\n• Ukuran Dogi: ${dogi}\n• Sabuk: ${belt}${passCode ? `\n• Voucher Pass: ${passCode}` : ""}`;
 
       safeOpenUrl(
-        `https://api.whatsapp.com/send?phone=62895410450540&text=${encodeURIComponent(msg)}`,
+        `https://api.whatsapp.com/send?phone=6281360088296&text=${encodeURIComponent(msg)}`,
       );
     });
   }
